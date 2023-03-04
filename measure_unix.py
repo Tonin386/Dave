@@ -6,7 +6,7 @@ import time
 zone_label = "B208"
 zone_index = 0
 # networks_ssid = [] #Put the names of the networks that interest us.
-networks_address = [] #Put the IPv6 adresses of the networks that interest us.
+networks_address = [""] #Put the IPv6 adresses of the networks that interest us.
 
 def scan_networks():
 	interface = "wlp0s20f3"
@@ -15,6 +15,7 @@ def scan_networks():
 	raw_data = scanner.getRawNetworkScan()["output"]
 	raw_cells = raw_data.decode().split("Cell")
 	raw_cells = raw_cells[1:]
+	print(len(raw_cells))
 
 	collected_data = []
 
@@ -25,7 +26,7 @@ def scan_networks():
 		signal_level_value = int(signal_level_text.replace(" dBm ", ""))
 		network_ssid = lines[5].replace("ESSID:", "").replace('"', '')
 
-		print("%s(%s) - %d" % (network_ssid, network_address, signal_level_value))
+		print("%s %d" % (network_address, signal_level_value))
 		network_data = {
 			"ssid": network_ssid,
 			"address": network_address,
@@ -33,7 +34,7 @@ def scan_networks():
 		}
 		collected_data.append(network_data)
 
-		return collected_data
+	return collected_data
 
 def save_data(d):
 	print("TODO")
@@ -44,6 +45,8 @@ for i in range(3):
 		if d["address"] in networks_address:
 			save_data(d)
 
+	if i == 2:
+		break
 	print("Waiting 5 seconds before the next measure...")
 	time.sleep(5)
 
