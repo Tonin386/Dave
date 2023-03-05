@@ -1,0 +1,5 @@
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                    UTTetudiants 20:9a:7d:09:b8:f4 -86  52,+1   Y  -- WPA(802.1x/TKIP,AES/TKIP) RSN(802.1x/AES/TKIP) 
+                      cordeesUTT E0:0E:E4:C0:98:B2 -86  52,+1   Y  -- WPA(PSK/TKIP,AES/TKIP) RSN(PSK/AES/TKIP) P) 
+                   UTTpersonnels 4A:14:04:14:41:58 -89  40,-1   Y  -- WPA(802.1x/TKIP,AES/TKIP) RSN(802.1x/AES/TKIP) 
+                          jpoUTT 4A:14:04:14:40:58 -55  64,-1   Y  -- WPA(PSK/TKIP,AES/TKIP) RSN(PSK/AES/TKIP) 
