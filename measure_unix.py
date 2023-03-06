@@ -8,7 +8,7 @@ from copy import deepcopy
 zone_label = input("Enter zone label: ")
 zone_index = int(input("Enter zone index: "))
 # networks_ssid = [] #Put the names of the networks that interest us.
-networks_address = ["20:9A:7D:09:B8:F4", "E0:0E:E4:C0:98:B2", "4A:14:04:14:41:58"] #Put the IPv6 adresses of the networks that interest us.
+networks_address = ["C0:25:5C:69:42:E4", "C0:25:5C:69:42:E9", "C0:25:5C:69:42:ED", "C0:25:5C:69:42:E3", "C0:25:5C:69:42:E1", "C0:25:5C:69:42:EE"] #Put the IPv6 adresses of the networks that interest us.
 print("You will need to make 20 measures. Every time you will need to move, you'll be asked so.")
 position = int(input("Please input the original position. Measurement will start once you pressed enter: "))
 if position < 0:
@@ -67,7 +67,7 @@ def clear_data(data):
 	return c_data
 
 for i in range(20):
-	for j in range(3):
+	for j in range(1):
 		acquisition_data = []
 		st = time.time()
 		for k in range(50):
