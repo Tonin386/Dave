@@ -10,4 +10,4 @@ Add this line to `sudo visudo`:
 
 Add this line to `sudo visudo`:
 
-`username ALL=(ALL) NOPASSWD: /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport`
+`%admin ALL=(ALL) NOPASSWD: /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport`

@@ -50,16 +50,21 @@ def scan_networks():
 			signal_level_text += line[i]
 			i += 1
 
-
-		signal_level_value = int(signal_level_text)
+		success = False
+		try:
+			signal_level_value = int(signal_level_text)
+			success = True
+		except:
+			continue
 
 		# print("%s %d" % (network_address, signal_level_value))
-		network_data = {
-			"ssid": network_ssid,
-			"address": network_address,
-			"signalStrength": signal_level_value
-		}
-		collected_data.append(network_data)
+		if success:
+			network_data = {
+				"ssid": network_ssid,
+				"address": network_address,
+				"signalStrength": signal_level_value
+			}
+			collected_data.append(network_data)
 
 	return collected_data
 
@@ -89,7 +94,7 @@ def clear_data(data):
 	return c_data
 
 for i in range(20):
-	for j in range(3):
+	for j in range(1):
 		acquisition_data = []
 		st = time.time()
 		for k in range(50):
