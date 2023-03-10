@@ -1,0 +1,126 @@
+[
+    {
+        "address": "14:D6:4D:33:03:02",
+        "ssid": "dlinkCapsec"
+    },
+    {
+        "address": "16:D5:D1:BD:5E:8B",
+        "ssid": "Remlebest"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:E1",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:E3",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:E4",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:E5",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:E9",
+        "ssid": "jpoUTT"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:ED",
+        "ssid": "cordeesUTT"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:EE",
+        "ssid": "personnelstest"
+    },
+    {
+        "address": "5C:5A:C7:28:87:01",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5C:5A:C7:28:87:02",
+        "ssid": "cordeesUTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:03",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:28:87:04",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:05",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:28:87:06",
+        "ssid": "jpoUTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:09",
+        "ssid": "jpoUTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:0A",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:28:87:0B",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:0C",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:28:87:0D",
+        "ssid": "cordeesUTT"
+    },
+    {
+        "address": "5C:5A:C7:28:87:0E",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "84:B2:61:08:E9:31",
+        "ssid": "personnelstest"
+    },
+    {
+        "address": "84:B2:61:08:E9:3A",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "84:B2:61:08:E9:3B",
+        "ssid": "UTT"
+    },
+    {
+        "address": "84:B2:61:08:E9:3C",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:A1",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:A3",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:A4",
+        "ssid": "UTT"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:A5",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:A9",
+        "ssid": "jpoUTT"
+    },
+    {
+        "address": "C0:25:5C:1F:F8:AE",
+        "ssid": "personnelstest"
+    }
+]
