@@ -4,10 +4,11 @@ import os
 import time
 import json
 from copy import deepcopy
+import pprint
 
 zone_label = input("Enter zone label: ")
 zone_index = int(input("Enter zone index: "))
-# networks_ssid = [] #Put the names of the networks that interest us.
+networks_ssid = ["UTT", "jpoUTT", "cordeesUTT", "UTTetudiants", "UTTpersonnels", "UTTpersonnels"] #Put the names of the networks that interest us.
 networks_address = ["C0:25:5C:69:42:E4", "C0:25:5C:69:42:E9", "C0:25:5C:69:42:ED", "C0:25:5C:69:42:E3", "C0:25:5C:69:42:E1", "C0:25:5C:69:42:EE"] #Put the IPv6 adresses of the networks that interest us.
 print("You will need to make 20 measures. Every time you will need to move, you'll be asked so.")
 position = int(input("Please input the original position. Measurement will start once you pressed enter: "))
@@ -23,6 +24,7 @@ def scan_networks():
 	raw_cells = raw_cells[1:]
 
 	collected_data = []
+	addresses = []
 
 	for c in raw_cells:
 		lines = c.split("\n")
@@ -33,17 +35,34 @@ def scan_networks():
 
 		# print("%s %d" % (network_address, signal_level_value))
 		network_data = {
-			"ssid": network_ssid,
 			"address": network_address,
+			"ssid": network_ssid,
 			"signalStrength": signal_level_value
 		}
 		collected_data.append(network_data)
+		if not network_address in addresses:
+			addresses.append(network_address)
+
+	for i in range(len(networks_address)):
+		if not networks_address[i] in addresses:
+			network_data = {
+				"address": networks_address[i],
+				"ssid": networks_ssid[i],
+				"signalStrength": 0
+			}
+			collected_data.append(network_data)
+
+	collected_data.sort(key=lambda d: d['address'])
+	for i in range(len(collected_data)):
+		print(i, collected_data[i])
 
 	return collected_data
 
 def save_data(data, position, acquisition):
 	path = "data/%s/%d/%d.json" % (zone_label, position, acquisition)
 	os.makedirs(os.path.dirname(path), exist_ok=True)
+
+	print(len(data))
 
 	ordered_data = {}
 	for d in data:
@@ -63,6 +82,10 @@ def clear_data(data):
 	for d in data:
 		if not d["address"] in networks_address:
 			c_data.remove(d)
+			continue
+		if "\\x00" in d["ssid"]:
+			c_data.remove(d)
+			continue
 
 	return c_data
 
