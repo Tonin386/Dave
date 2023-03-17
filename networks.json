@@ -1,11 +1,7 @@
 [
     {
-        "address": "14:D6:4D:33:03:02",
-        "ssid": "dlinkCapsec"
-    },
-    {
-        "address": "16:D5:D1:BD:5E:8B",
-        "ssid": "Remlebest"
+        "address": "5C:5A:C7:0C:55:E0",
+        "ssid": "jpo"
     },
     {
         "address": "5C:5A:C7:0C:55:E1",
@@ -16,6 +12,10 @@
         "ssid": "UTTetudiants"
     },
     {
+        "address": "5C:5A:C7:0C:55:E3",
+        "ssid": "TroyesEUT"
+    },
+    {
         "address": "5C:5A:C7:0C:55:E4",
         "ssid": "UTT"
     },
@@ -24,24 +24,56 @@
         "ssid": "eduroam"
     },
     {
-        "address": "5C:5A:C7:0C:55:E9",
-        "ssid": "jpoUTT"
+        "address": "5C:5A:C7:0C:55:EA",
+        "ssid": "eduroam"
     },
     {
-        "address": "5C:5A:C7:0C:55:ED",
-        "ssid": "cordeesUTT"
+        "address": "5C:5A:C7:0C:55:EB",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:0C:55:EC",
+        "ssid": "UTTetudiants"
     },
     {
         "address": "5C:5A:C7:0C:55:EE",
-        "ssid": "personnelstest"
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5C:5A:C7:28:72:01",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5C:5A:C7:28:72:03",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:28:72:04",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:28:72:05",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:28:72:0A",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:28:72:0B",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:28:72:0C",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:28:72:0E",
+        "ssid": "UTTpersonnels"
     },
     {
         "address": "5C:5A:C7:28:87:01",
         "ssid": "UTTpersonnels"
-    },
-    {
-        "address": "5C:5A:C7:28:87:02",
-        "ssid": "cordeesUTT"
     },
     {
         "address": "5C:5A:C7:28:87:03",
@@ -56,14 +88,6 @@
         "ssid": "eduroam"
     },
     {
-        "address": "5C:5A:C7:28:87:06",
-        "ssid": "jpoUTT"
-    },
-    {
-        "address": "5C:5A:C7:28:87:09",
-        "ssid": "jpoUTT"
-    },
-    {
         "address": "5C:5A:C7:28:87:0A",
         "ssid": "eduroam"
     },
@@ -76,16 +100,60 @@
         "ssid": "UTTetudiants"
     },
     {
-        "address": "5C:5A:C7:28:87:0D",
-        "ssid": "cordeesUTT"
-    },
-    {
         "address": "5C:5A:C7:28:87:0E",
         "ssid": "UTTpersonnels"
     },
     {
+        "address": "5C:5A:C7:36:31:41",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5C:5A:C7:36:31:43",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:36:31:44",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:36:31:45",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:36:31:4A",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "5C:5A:C7:36:31:4B",
+        "ssid": "UTT"
+    },
+    {
+        "address": "5C:5A:C7:36:31:4C",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "5C:5A:C7:36:31:4E",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "5E:5D:9D:8D:3A:62",
+        "ssid": "Gagathe"
+    },
+    {
         "address": "84:B2:61:08:E9:31",
-        "ssid": "personnelstest"
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "84:B2:61:08:E9:33",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "84:B2:61:08:E9:34",
+        "ssid": "UTT"
+    },
+    {
+        "address": "84:B2:61:08:E9:35",
+        "ssid": "eduroam"
     },
     {
         "address": "84:B2:61:08:E9:3A",
@@ -100,27 +168,79 @@
         "ssid": "UTTetudiants"
     },
     {
-        "address": "C0:25:5C:1F:F8:A1",
+        "address": "84:B2:61:08:E9:3E",
         "ssid": "UTTpersonnels"
     },
     {
-        "address": "C0:25:5C:1F:F8:A3",
+        "address": "84:B2:61:15:36:31",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "84:B2:61:15:36:33",
         "ssid": "UTTetudiants"
     },
     {
-        "address": "C0:25:5C:1F:F8:A4",
+        "address": "84:B2:61:15:36:34",
         "ssid": "UTT"
     },
     {
-        "address": "C0:25:5C:1F:F8:A5",
+        "address": "84:B2:61:15:36:35",
         "ssid": "eduroam"
     },
     {
-        "address": "C0:25:5C:1F:F8:A9",
-        "ssid": "jpoUTT"
+        "address": "84:B2:61:15:36:3B",
+        "ssid": "UTT"
     },
     {
-        "address": "C0:25:5C:1F:F8:AE",
-        "ssid": "personnelstest"
+        "address": "84:B2:61:15:36:3C",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "84:B2:61:15:36:3E",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "8E:01:1D:E0:A8:19",
+        "ssid": "OPPO Find X2 Neo"
+    },
+    {
+        "address": "E4:AA:5D:3E:CE:E1",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "E4:AA:5D:3E:CE:E3",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "E4:AA:5D:3E:CE:E4",
+        "ssid": "UTT"
+    },
+    {
+        "address": "E4:AA:5D:3E:CE:E5",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "E4:AA:5D:3E:E7:51",
+        "ssid": "UTTpersonnels"
+    },
+    {
+        "address": "E4:AA:5D:3E:E7:53",
+        "ssid": "UTTetudiants"
+    },
+    {
+        "address": "E4:AA:5D:3E:E7:54",
+        "ssid": "UTT"
+    },
+    {
+        "address": "E4:AA:5D:3E:E7:55",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "E4:AA:5D:3E:E7:5A",
+        "ssid": "eduroam"
+    },
+    {
+        "address": "EA:F3:DF:A4:9D:22",
+        "ssid": "Mi A3"
     }
 ]
