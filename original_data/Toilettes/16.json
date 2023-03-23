@@ -1,0 +1,851 @@
+{
+    "5C:5A:C7:0C:55:E0": {
+        "signalStrength": [
+            -59,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:E1": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:E3": {
+        "signalStrength": [
+            -65,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:E4": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:E5": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:EA": {
+        "signalStrength": [
+            -64,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:EB": {
+        "signalStrength": [
+            -64,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:EC": {
+        "signalStrength": [
+            -64,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:0C:55:EE": {
+        "signalStrength": [
+            -64,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:01": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:03": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:04": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:05": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:0A": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:0B": {
+        "signalStrength": [
+            -80,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:0C": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:72:0E": {
+        "signalStrength": [
+            -80,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:01": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:03": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:04": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:05": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:0A": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:0B": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:0C": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:28:87:0E": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:41": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:43": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:44": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:45": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:4A": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:4B": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:4C": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5C:5A:C7:36:31:4E": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "5E:5D:9D:8D:3A:62": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:31": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:33": {
+        "signalStrength": [
+            -62,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:34": {
+        "signalStrength": [
+            -74,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:35": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:3A": {
+        "signalStrength": [
+            -69,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:3B": {
+        "signalStrength": [
+            -69,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:3C": {
+        "signalStrength": [
+            -69,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:08:E9:3E": {
+        "signalStrength": [
+            -54,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:31": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:33": {
+        "signalStrength": [
+            -71,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:34": {
+        "signalStrength": [
+            -82,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:35": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:3B": {
+        "signalStrength": [
+            -81,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:3C": {
+        "signalStrength": [
+            -82,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "84:B2:61:15:36:3E": {
+        "signalStrength": [
+            -81,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "8E:01:1D:E0:A8:19": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:CE:E1": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:CE:E3": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:CE:E4": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:CE:E5": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:E7:51": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:E7:53": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:E7:54": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:E7:55": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "E4:AA:5D:3E:E7:5A": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "EA:F3:DF:A4:9D:22": {
+        "signalStrength": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    }
+}

@@ -91,10 +91,10 @@ def clear_data(data):
 	return c_data
 
 load_networks()
-for i in range(20):
+for i in range(30):
 	acquisition_data = []
 	st = time.time()
-	for k in range(50):
+	for k in range(20):
 		data = scan_networks()
 		acquisition_data.extend(clear_data(data))
 		print("%d/50" % (k+1))
