@@ -1,4 +1,3 @@
-from rssi import RSSI_Scan, RSSI_Localizer
 import re
 import os
 import time
@@ -80,10 +79,10 @@ def scan_networks(networks):
 				addresses.append(network_address)
 				collected_data.append(network_data)
 
-	for i in range(len(networks_address)):
-		if not networks_address[i] in addresses:
+	for i in range(len(networks)):
+		if not networks[i] in addresses:
 			network_data = {
-				"address": networks_address[i],
+				"address": networks[i],
 				"signalStrength": None
 			}
 		if not network_address in addresses:
