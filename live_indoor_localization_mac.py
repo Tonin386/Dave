@@ -25,27 +25,67 @@ def load_random_acquisition():
 	return list(data.values[randint(0, len(data))])
 
 def scan_networks(networks):
-	interface = "wlp0s20f3"
-	scanner = RSSI_Scan(interface)
-
-	raw_data = scanner.getRawNetworkScan(True)["output"]
-	raw_cells = raw_data.decode().split("Cell")
-	raw_cells = raw_cells[1:]
+	raw_data = os.popen("sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s").read()
+	raw_cells = raw_data.split("\n")
+	raw_cells = raw_cells[1:-1]
 
 	collected_data = []
 	addresses = []
 
-	for c in raw_cells:
-		lines = c.split("\n")
-		network_address = re.sub(r"^.*Address: ", "", lines[0])
-		signal_level_text = re.sub("^.*Signal level=", "", lines[3])
-		signal_level_value = int(signal_level_text.replace(" dBm ", ""))
+	for line in raw_cells:
+
+		network_address = ""
+		signal_level_text = ""
+		signal_level_value = ""
+		network_ssid = ""
+
+		i = 0
+		while line[i] == " ":
+			i += 1
+
+		while line[i] != " ":
+			network_ssid += line[i]
+			i += 1
+
+
+		while line[i] == " ":
+			i += 1
+
+		while line[i] != " ":
+			network_address += line[i].upper()
+			i += 1
+
+
+		while line[i] == " ":
+			i += 1
+
+		while line[i] != " ":
+			signal_level_text += line[i]
+			i += 1
+
+		success = False
+		try:
+			signal_level_value = int(signal_level_text)
+			success = True
+		except:
+			continue
 
 		# print("%s %d" % (network_address, signal_level_value))
-		network_data = {
+		if success:
+			network_data = {
 			"address": network_address,
 			"signalStrength": signal_level_value
-		}
+			}
+			if not network_address in addresses:
+				addresses.append(network_address)
+				collected_data.append(network_data)
+
+	for i in range(len(networks_address)):
+		if not networks_address[i] in addresses:
+			network_data = {
+				"address": networks_address[i],
+				"signalStrength": None
+			}
 		if not network_address in addresses:
 			addresses.append(network_address)
 			collected_data.append(network_data)
@@ -78,6 +118,15 @@ def clear_data(data, networks):
 model = pickle.load(open("model_raw.sav", "rb"))
 scaler = pickle.load(open("scaler.sav", "rb"))
 networks = load_networks()
+
+# for i in range(10):
+# 	data = load_random_acquisition()
+# 	print(data[-1])
+# 	data_test = [data[:-1]] * 5
+# 	df = pd.DataFrame(data_test, columns=networks)
+# 	x_test = scaler.transform(df)
+# 	results = model.predict(x_test)
+# 	print(results)
 
 print("Initialisation...")
 for i in range(3):
