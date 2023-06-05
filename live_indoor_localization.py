@@ -8,10 +8,24 @@ import pickle
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
 import numpy as np
 from random import randint
 
 labels = ["C201", "C203", "C204", "C205", "C206", "C207", "C208", "C210", "DC", "MC"]
+
+C201 = [[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+C203 = [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]]
+C204 = [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]]
+C205 = [[0, 0, 0, 1, 0, 0, 0, 0, 0, 0]]
+C206 = [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0]]
+C207 = [[0, 0, 0, 0, 0, 1, 0, 0, 0, 0]]
+C208 = [[0, 0, 0, 0, 0, 0, 1, 0, 0, 0]]
+C210 = [[0, 0, 0, 0, 0, 0, 0, 1, 0, 0]]
+DC = [[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]]
+MC = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]
 
 def most_frequent(List):
     return max(set(List), key = List.count)
@@ -75,29 +89,42 @@ def clear_data(data, networks):
 	return c_data
 
 
-model = pickle.load(open("model_raw.sav", "rb"))
-scaler = pickle.load(open("scaler.sav", "rb"))
+model = pickle.load(open("model_nn.sav", "rb"))
+scaler = pickle.load(open("scaler_raw.sav", "rb"))
 networks = load_networks()
-
-print("Initialisation...")
-for i in range(3):
-	scan_networks(networks)
 
 print("Acquisition des données...")
 
 acquisition_data = []
 st = time.time()
-for k in range(10):
-	data = scan_networks(networks)
-	acquisition_data.append(clear_data(data, networks))
-	print("%d/10" % (k+1))
+data = scan_networks(networks)
+acquisition_data.append(clear_data(data, networks))
 
 et = time.time()
 elapsed = et - st
 df = pd.DataFrame(acquisition_data, columns=networks)
-print("Exec time: %f seconds" % elapsed)
-x_test = scaler.transform(df)
+# x_test = scaler.transform(df)
+x_test = df.values.tolist()
 print(x_test)
-results = model.predict(x_test)
-print(results)
-print("Vous vous trouvez en", labels[int(most_frequent(list(results)))])
+# results = model.predict(x_test)
+_, results = model.evaluate(x_test, C201)
+print("C201", results)
+_, results = model.evaluate(x_test, C203)
+print("C203", results)
+_, results = model.evaluate(x_test, C204)
+print("C204", results)
+_, results = model.evaluate(x_test, C205)
+print("C205", results)
+_, results = model.evaluate(x_test, C206)
+print("C206", results)
+_, results = model.evaluate(x_test, C207)
+print("C207", results)
+_, results = model.evaluate(x_test, C208)
+print("C208", results)
+_, results = model.evaluate(x_test, C210)
+print("C210", results)
+_, results = model.evaluate(x_test, DC)
+print("DC", results)
+_, results = model.evaluate(x_test, MC)
+print("MC", results)
+# print("Vous vous trouvez en", labels[int(most_frequent(list(results)))])
